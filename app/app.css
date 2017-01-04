@@ -1,0 +1,91 @@
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+For example, the following CSS rule changes the font size of all UI
+components that have the btn class name.
+*/
+.btn {
+    font-size: 18;
+}
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme.
+*/
+@import 'nativescript-theme-core/css/core.light.css';
+@import url('~/platform.css');
+
+Page {
+    background-color: white;
+    font-size: 17;
+}
+TextField {
+    margin: 10;
+    padding: 10;
+}
+Image {
+    margin-top: 20;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 80;
+}
+Button {
+    margin: 10;
+    padding: 10;
+}
+
+/* From platform.android.css */
+.link {
+    background-color: transparent;
+}
+
+/* From platform.ios.css */
+.link {
+    border-width: 0;
+}
+
+StackLayout {
+  margin-left: 30;
+  margin-right: 30;
+  padding-bottom: 15;
+  background-color: white;
+}
+
+StackLayout.login_page{
+    vertical-align: center;
+}
+
+Image {
+  margin-top: 5;
+  margin-bottom: 20;
+}
+Button, TextField {
+  margin-left: 16;
+  margin-right: 16;
+  margin-bottom: 10;
+}
+.login-button {
+  background-color: #26b656;
+  color: white;
+  margin-top: 20;
+  border-radius: 10px;
+}
+
+.fa {
+  font-family: FontAwesome, fontawesome-webfont;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.login_user_icon{
+    font-size: 60px;
+    color: #7d9e06;
+    margin-top: 35px;
+}
