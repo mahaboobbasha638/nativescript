@@ -1,0 +1,10 @@
+<StackLayout orientation="vertical" class="login_page">
+    <Label class="fa textcenter login_user_icon" [text]="'fa-user-circle' | fonticon" ></Label> 
+    <TextField hint="User Name" keyboardType="email" [(ngModel)]="user.username"
+      autocorrect="false" autocapitalizationType="none"
+      borderRadius="5" borderWidth="1" borderColor="#cccccc"></TextField>
+    <TextField hint="Password" secure="true" [(ngModel)]="user.password"
+      borderRadius="5" borderWidth="1" borderColor="#cccccc"></TextField>
+
+    <Button text="Sign in"  class="login-button" (tap)="submit()"></Button>
+</StackLayout>
