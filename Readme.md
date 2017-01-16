@@ -51,11 +51,6 @@
             npm run start.android
             npm run start.livesync.android
 
-
-- create project with master details template
-
-        tns create my-app-name --template https://github.com/avatsaev/nativescript-master-detail-angular2.git
-
 - adding fontawesome
 
         npm install nativescript-ng2-fonticon --save
@@ -77,3 +72,16 @@
         ]
 
         <Label class="fa" text="{{'fa-bluetooth' | fonticon}}"></Label>
+
+- create project with master details template
+
+        tns create my-app-name --template https://github.com/avatsaev/nativescript-master-detail-angular2.git
+
+
+- Creating angular project with navigation drawer template
+
+           tns create fertilizers --template nativescript-angular-drawer-template
+
+  - OR else clone this sample app
+
+        https://github.com/shripalsoni04/ns-ng-drawer-template-demo
