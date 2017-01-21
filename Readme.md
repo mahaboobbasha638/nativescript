@@ -39,6 +39,19 @@
         npm i nativescript-ng2-magic --save
         https://www.npmjs.com/package/nativescript-ng2-magic
 
+
+- updating latest version
+
+        npm install -g nativescript@latest
+        npm install tns-core-modules@latest --save
+
+        tns platform remove android
+        tns platform add android
+
+        tns platform remove ios
+        tns platform add ios
+
+
 - running in agular cli
 
     - Run your app in the iOS Simulator with these options:
@@ -85,3 +98,10 @@
   - OR else clone this sample app
 
         https://github.com/shripalsoni04/ns-ng-drawer-template-demo
+
+  - OR clone sample-navigation brach of this git
+
+
+- nativescript apps store
+
+        http://nativescript.rocks/angular.php
